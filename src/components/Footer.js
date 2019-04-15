@@ -5,9 +5,9 @@ import '../styles.css/footer.css'
 class Footer extends Component {
   render() {
       return(
-        <div className="about">
+        <footer>
             <h2>footer</h2>
-        </div>
+        </footer>
       );
 
   }
