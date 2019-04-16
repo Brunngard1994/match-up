@@ -8,7 +8,7 @@ body{
 .about{
     background-color:white;
     text-align: center;
-    height: 50vh;
+   
 }
 
 .about h2{
@@ -19,3 +19,10 @@ body{
 p{
   font-size: 1.5rem;
 }
+
+span{
+  background-color: green;
+}
+ .steps col{
+   height: 30vh;
+ }

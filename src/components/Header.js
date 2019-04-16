@@ -14,8 +14,8 @@ class Header extends Component {
           <li><a href="default.asp">Registrering</a></li>
           </ul>
         </nav>
-        <h1>Match Up</h1>
-        <h2>Hitta träningsmatcher snabbt och enkelt</h2>
+        <h1><span>Match Up</span></h1>
+        <h2><span>Hitta träningsmatcher snabbt och enkelt</span></h2>
       </header>
          
 

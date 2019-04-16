@@ -3,6 +3,7 @@ import Navbar from './components/Navbar'
 import Header from './components/Header'
 import Intro from './components/Intro'
 import Footer from './components/Footer'
+import Registration from './components/Registration'
 
 
 class App extends Component {
@@ -11,7 +12,9 @@ class App extends Component {
     <div>
       <Header />
       <Intro />
+      <Registration />
       <Footer />
+      
      </div>
     );
       
