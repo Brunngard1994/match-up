@@ -46,3 +46,7 @@ h1 span{
 h2 span{
     background-color: rgb(102, 102, 211)
 }
+
+header button{
+    text-align: center;
+}

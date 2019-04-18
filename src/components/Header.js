@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import '../styles.css/header.css';
-import background from '../images/fotballimg.jpg'
+import { Button } from 'reactstrap';
+
 
 
 class Header extends Component {
@@ -16,6 +17,7 @@ class Header extends Component {
         </nav>
         <h1><span>Match Up</span></h1>
         <h2><span>Hitta träningsmatcher snabbt och enkelt</span></h2>
+        <Button className="login">Log In</Button>
       </header>
          
 
