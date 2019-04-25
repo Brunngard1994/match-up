@@ -7,7 +7,7 @@ class Intro extends Component {
   render() {
       return(
         <div className="about">
-            <h2><span>Vi gör det enklare för ditt lag att hitta träningsmatcher!</span></h2>
+            <h2><span>Vad är Match Up?</span></h2>
              <Container className="steps">
               <Row>
                 <Col>

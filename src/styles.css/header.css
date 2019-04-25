@@ -11,42 +11,34 @@ header{
     height: 100vh;
     border-bottom: 1px solid black;
     background-size: cover;
+    background: url(../images/match.jpg) no-repeat center center fixed;
+   -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    opacity: 0.5;
     
-
 }
+
+
 header h1{
     text-align: center;
     margin: 0;
-    padding-top: 20vh;
+    padding-top: 25vh;
     color: white;
-    font-style: uppercase;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 3rem;
+    text-shadow: 1px 1px 1px black;
 }
 
 header h2{
     text-align: center;
-    color: white
+    color: white;
+    font-weight: bold;
+    font-size: 2.7rem;
+    text-shadow: 1px 1px 1px black;
 }
 
-nav ul{
-  margin: 0;
-  color: black;
-  list-style-type: none;
-  display: inline;
-  text-align: center;
-}
 
-ul a{
-    color: black;
-    display: inline;
-}
 
-h1 span{
-    background-color: rgb(102, 102, 211)
-}
-h2 span{
-    background-color: rgb(102, 102, 211)
-}
-
-header button{
-    text-align: center;
-}
