@@ -7,10 +7,10 @@ import { Button } from 'reactstrap';
 class Header extends Component {
   render() {
       return(
-      <header>
+      <section>
         <h1>Match Up</h1>
         <h2>Hitta träningsmatcher snabbt och enkelt</h2>
-      </header>
+      </section>
          
 
       );
