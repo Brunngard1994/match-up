@@ -1,15 +1,14 @@
 import React, { Component } from 'react';
-import '../styles.css/header.css';
 import { Button } from 'reactstrap';
-
-
+import '../styles.css/header.css';
 
 class Header extends Component {
   render() {
       return(
-      <section>
+      <section className="text-center">
         <h1>Match Up</h1>
         <h2>Hitta träningsmatcher snabbt och enkelt</h2>
+        <Button className="reg-button" color="secondary" size="lg">Large Button</Button>
       </section>
          
 
