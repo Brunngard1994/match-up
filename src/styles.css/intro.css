@@ -14,10 +14,15 @@ body{
 .about h2{
   margin: 0;
   padding-top: 5vh;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 3rem;
 }
 
 p{
   font-size: 1.5rem;
+  margin-top: 5vh;
+  color: rgb(34, 33, 33);
 }
 
 .steps{

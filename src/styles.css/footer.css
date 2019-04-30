@@ -5,11 +5,12 @@ body{
   }
 
   footer{
-    background-color: grey;
+    background-color: black;
     height: 20vh;
 }
 
 footer h2{
     margin: 0;
     text-align: center;
+    color: white;
   }

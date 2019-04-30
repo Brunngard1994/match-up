@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Navbar from './components/Navbar'
 import Header from './components/Header'
 import Intro from './components/Intro'
-import About from './components/About'
+import Guide from './components/Guide'
 import Footer from './components/Footer'
 import Registration from './components/Registration'
 
@@ -14,7 +14,7 @@ class App extends Component {
       <Navbar />
       <Header />
       <Intro />
-      <Registration />
+      <Guide />
       <Footer />
       
      </div>

@@ -9,7 +9,6 @@ section{
     margin: 0;
     padding: 0;
     height: 100vh;
-    border-bottom: 1px solid black;
     background-size: cover;
     background: url(../images/match.jpg) no-repeat center center fixed;
    -webkit-background-size: cover;
@@ -42,6 +41,9 @@ section h2{
 
 .reg-button{
     margin-top: 50px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
 @media only screen and (max-width: 768px) {
