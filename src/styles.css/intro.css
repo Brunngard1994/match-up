@@ -22,9 +22,10 @@ body{
 p{
   font-size: 1.5rem;
   margin-top: 5vh;
-  color: rgb(34, 33, 33);
+  color: rgb(116, 113, 113);
+  font-weight: bold;
 }
-
+ 
 .steps{
    padding-bottom: 5vh;
  }

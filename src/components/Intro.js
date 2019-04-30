@@ -9,6 +9,7 @@ class Intro extends Component {
         <div className="about">
             <h2><span>Vad är Match Up?</span></h2>
             <p>Match Up är en tjänst som ska göra det lättare för din klubb att hitta träningsmatcher. Vi är just nu i tidig produktion men tjänsten  utvecklas ständigt</p>
+            <h2>Hur funkar det?</h2>
         </div>
        
       );

@@ -8,7 +8,7 @@ class Header extends Component {
       <section className="text-center">
         <h1>Match Up</h1>
         <h2>Hitta träningsmatcher snabbt och enkelt</h2>
-        <Button className="reg-button"  color="danger" size="lg">Register</Button>
+        <Button className="reg-button"  outline color="secondary" size="lg">Register</Button>
       </section>
          
 

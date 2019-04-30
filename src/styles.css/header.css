@@ -15,7 +15,7 @@ section{
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    opacity: 0.5;
+    
     
 }
 
@@ -26,9 +26,9 @@ section h1{
     padding-top: 25vh;
     color: white;
     text-transform: uppercase;
-    font-weight: bold;
     font-size: 3rem;
     text-shadow: 1px 1px 1px black;
+    font-family: Bebasneue, Impact, sans-serif;
 }
 
 section h2{
@@ -41,7 +41,7 @@ section h2{
 
 .reg-button{
     margin-top: 50px;
-    color: white;
+    color: black;
     font-weight: bold;
     text-transform: uppercase;
 }
