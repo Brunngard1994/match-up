@@ -12,6 +12,8 @@ body{
 
 footer h2{
     margin: 0;
-    text-align: center;
     color: white;
+    text-align: center;
+    padding-top: 10vh;
+    font-size: 1rem;
   }

@@ -6,7 +6,8 @@ class Footer extends Component {
   render() {
       return(
         <footer>
-            <h2>footer</h2>
+            <h2>&copy; Match up. all rights reserved</h2>
+            
         </footer>
       );
 

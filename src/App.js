@@ -3,9 +3,8 @@ import Navbar from './components/Navbar'
 import Header from './components/Header'
 import Intro from './components/Intro'
 import Guide from './components/Guide'
-import Appstore from './components/Appstore'
+import Social from './components/Social'
 import Footer from './components/Footer'
-import Registration from './components/Registration'
 
 
 class App extends Component {
@@ -16,7 +15,7 @@ class App extends Component {
       <Header />
       <Intro />
       <Guide />
-      <Appstore />
+      <Social/>
       <Footer />
       
      </div>
