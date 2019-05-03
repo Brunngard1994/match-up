@@ -7,9 +7,11 @@ import Social from './components/Social'
 import Footer from './components/Footer'
 
 
+
 class App extends Component {
   render() {
     return (
+    
     <div>
       <Navbar />
       <Header />
@@ -17,8 +19,7 @@ class App extends Component {
       <Guide />
       <Social/>
       <Footer />
-      
-     </div>
+    </div>
     );
       
     

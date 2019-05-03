@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { Button } from 'reactstrap';
 import '../styles.css/header.css';
+import { Route } from "react-router-dom"
+import { Link } from 'react-router-dom';
 
 class Header extends Component {
   render() {
@@ -8,11 +10,14 @@ class Header extends Component {
       <section className="text-center">
         <h1>Match Up</h1>
         <h2>Hitta träningsmatcher snabbt och enkelt</h2>
-        <Button className="reg-button"  outline color="secondary" size="lg">Register</Button>
+        <ul>
+          <li>
+          <Link to='/Registration' > some stuff </Link>
+          </li>
+        </ul>
       </section>
-         
-
-      );
+      
+    );
 
   }
 }
