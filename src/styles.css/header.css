@@ -39,18 +39,11 @@ section h2{
     text-shadow: 1px 1px 1px black;
 }
 
-.reg-button{
-    margin-top: 50px;
-    color: black;
-    font-weight: bold;
-    text-transform: uppercase;
-}
 
-.svff-logo{
-    width:20px;
-    height: 20px;
-    padding-top: 10px;
-}
+
+
+
+
 @media only screen and (max-width: 768px) {
     section h1{
         font-size: 3rem;

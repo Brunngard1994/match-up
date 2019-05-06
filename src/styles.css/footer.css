@@ -7,8 +7,11 @@ body{
   footer{
     background-color: black;
     height: 20vh;
-    
-}
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
 
 footer h2{
     margin: 0;
