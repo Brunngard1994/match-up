@@ -3,9 +3,7 @@ import Navbar from './components/Navbar'
 import Header from './Header'
 import Intro from './Intro'
 import Register from './Register'
-import Guide from './components/Guide'
-import Social from './Social'
-import Footer from './components/Footer'
+import Footer from './Footer'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 
 
@@ -22,7 +20,7 @@ class App extends Component {
           <Route path="/Intro" component={Intro} />
           <Route path="/Register" component={Register} />
         </Switch>
-       <Footer />
+       
       </div>
     </Router>
     );
