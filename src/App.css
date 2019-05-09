@@ -5,16 +5,5 @@ body{
   height: 100%;
 }
 
-nav{
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  min-height: 10vh;
-  background: lightblue;
-  color: white;
-}
-
-
-
 
 

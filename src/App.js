@@ -3,9 +3,7 @@ import Navbar from './components/Navbar'
 import Header from './Header'
 import Intro from './Intro'
 import Register from './Register'
-import Footer from './Footer'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
-
 
 
 class App extends Component {

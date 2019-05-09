@@ -12,14 +12,14 @@ body{
 }
 
 .home-page{
-  background-color: grey;
+  background-color: black;
   height: 100vh;
 }
   
 .home-page h1{
     text-align: center;
     margin: 0;
-    padding-top: 10vh;
+    padding-top: 30vh;
     color: rgb(93, 170, 106);
     text-transform: uppercase;
     font-size: 3rem;
@@ -29,25 +29,66 @@ body{
 
 .home-page h2{
     text-align: center;
-    color: rgb(5, 5, 5);
+    color: rgb(255, 244, 244);
     font-weight: bold;
     font-size: 2.7rem;
     text-shadow: 1px 1px 1px black;
+    padding-top: 2vh;
+    padding-bottom: 3vh;
 }
 
 .home-page h3{
     text-align: center;
     padding-top: 20vh;
+    color: rgb(93, 170, 106);
 }
 
 .hej{
-    background-color: yellow;
+    background-color: white;
     height: 50vh;
 }
 
 .då{
     height: 30vh;
-    background-color: red;
+    background-color:rgb(93, 170, 106);
+}
+
+.social-media{
+    background:white;
+    height: 30vh;
+    justify-content: center;
+    display: flex;
+}
+
+.social-media h1{
+    text-align: center;
+    font-weight: bold;
+}
+
+.social-media a{
+    color: black;
+    font-size: 3rem;
+    justify-content: center;
+    display: flex;
+}
+
+.social-media a:hover{
+    color: rgb(93, 170, 106);
+    font-size: 3rem;
+}
+
+button {
+    display: block;
+    margin: auto;
+    background-color: rgb(93, 170, 106);
+    border: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+button:hover{
+    background-color: white;
 }
 
 
