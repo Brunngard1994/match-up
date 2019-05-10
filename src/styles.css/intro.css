@@ -20,35 +20,35 @@ body{
   font-size: 3rem;
 }
 
-p{
+.about p{
   font-size: 1.5rem;
   margin-top: 5vh;
-  color: rgb(116, 113, 113);
+  color: rgb(93, 170, 106);
   font-weight: bold;
   
 }
  
 .guide > div{
-  background:rgb(93, 170, 106);
+  color:  rgb(93, 170, 106);
   padding: 1em;
   height: 30vh;
   margin-bottom: 5vh;
+  text-align: center;
 }
 
 .guide{
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   text-align: center;
   grid-gap: 1em;
   margin-top: 5vh;
   margin-top: 10vh;
-}
+ }
 
 .guide h1{
   font-weight: bold;
-  color: white;
+  color:  rgb(93, 170, 106);
+  text-align: center;
 }
 
 .guide p{
-  color: white;
+  color: black;
 }
