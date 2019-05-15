@@ -43,26 +43,42 @@ body{
     color: rgb(93, 170, 106);
 }
 
-.hej{
-    background-color: white;
-    height: 50vh;
-}
-
-.då{
-    height: 30vh;
+.section-1{
     background-color:rgb(93, 170, 106);
+    height: 50vh;
+ }
+
+ .section-1 h1{
+    text-align: center;
+    margin: 0;
+    padding-top: 22vh;
+    color: black;
+    text-transform: uppercase;
+    font-size: 4rem;
+    text-shadow: 1px 1px 1px black;
+    font-weight: bold;
+ }
+
+.section-2{
+    height: 50vh;
+    background-color:white;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .social-media{
     background:white;
     height: 30vh;
+    padding-top: 5vh;
     justify-content: center;
     display: flex;
+    padding-bottom: 10vh;
 }
 
 .social-media h1{
     text-align: center;
     font-weight: bold;
+    color: black;
 }
 
 .social-media a{
@@ -70,11 +86,16 @@ body{
     font-size: 3rem;
     justify-content: center;
     display: flex;
+    padding: 1vh;
 }
 
 .social-media a:hover{
     color: rgb(93, 170, 106);
     font-size: 3rem;
+}
+
+.social-media span{
+    color: rgb(93, 170, 106);
 }
 
 button {
@@ -85,22 +106,73 @@ button {
     padding: 10px 20px;
     font-size: 20px;
     font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
 }
 
 button:hover{
     background-color: white;
 }
 
+#f-button{
+    text-decoration: none;
+}
+
 
 
 @media only screen and (max-width: 768px) {
+    /*First section of front page */
     .home-page h1{
-        font-size: 3rem;
+        font-size: 2rem;
+        padding-top: 20vh;
     }
 
     .home-page h2{
-        font-size: 2rem;
+        font-size: 1.2rem;
     }
+
+    .button{
+       padding: 5px;
+    }
+
+    /*End of first section of front page */
+
+    /*Second section of front page */
+    .section-1 h1{
+        font-size: 1.7rem;
+    }
+
+   
+
+    /*End of second section */
+
+    /*Third section of front page */
+    .about h2{
+        font-size: 1.5rem;
+    }
+
+    /*End Third section of front page */
+
+    /*Social media section */
+
+    .social-media{
+        height: 40vh;
+    }
+    .social-media h1{
+        font-size: 1.8rem;
+    }
+
+    .social-media a{
+        font-size: 2.4rem;
+
+    }
+    /*End Social media section */
     
   }
 
+
+  @media only screen and (max-width: 322px) {
+      .social-media{
+          height: 60vh;
+      }
+      
+  }

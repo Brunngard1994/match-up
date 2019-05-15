@@ -2,7 +2,7 @@ body{
     margin: 0;
     padding: 0;
     font-family: 'Courier New', Courier, monospace;
-    color: black;
+    
   }
   
 .about{
@@ -31,7 +31,7 @@ body{
 .guide > div{
   color:  rgb(93, 170, 106);
   padding: 1em;
-  height: 30vh;
+  height: 22vh;
   margin-bottom: 5vh;
   text-align: center;
 }
@@ -39,16 +39,43 @@ body{
 .guide{
   text-align: center;
   grid-gap: 1em;
-  margin-top: 5vh;
-  margin-top: 10vh;
+  background-color: black;
  }
 
 .guide h1{
   font-weight: bold;
-  color:  rgb(93, 170, 106);
+  color:  white;
   text-align: center;
+  padding-top: 5vh;
 }
 
 .guide p{
-  color: black;
+  font-size: 1.5rem;
+  color: rgb(93, 170, 106);
+  font-weight: bold;
+}
+
+
+@media only screen and (max-width: 768px){
+  .about h2{
+    font-size: 2rem;
+  }
+
+  .about p{
+    font-size: 1.2rem;
+  }
+
+  .guide h1{
+    font-size: 1.85rem;
+    padding-top: 1vh;
+  }
+
+  .guide p{
+    font-size: 1.2rem;
+
+  }
+
+  .guide{
+    padding-top: 2vh;
+  }
 }
