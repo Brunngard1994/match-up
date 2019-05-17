@@ -115,6 +115,11 @@ button:hover{
 
 #f-button{
     text-decoration: none;
+    
+}
+
+#link-button{
+    text-decoration: none;
 }
 
 
@@ -148,6 +153,10 @@ button:hover{
     /*Third section of front page */
     .about h2{
         font-size: 1.5rem;
+    }
+
+    .guide > div {
+        height: 15vh;
     }
 
     /*End Third section of front page */
