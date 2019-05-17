@@ -1,0 +1,71 @@
+.grid-wrapper{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: 15% 15% 15% 15% 15% 25%;
+    background: black;
+}
+
+.welcome{
+    text-align: center;
+    justify-content: center;
+    grid-row: 2/6;
+    grid-column: 2/6;
+    font-size: 1.5rem;
+    font-weight: bold;
+    background-color: white;
+}
+
+.welcome h1{
+    color: black;
+    padding-top: 3vh;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+#logout-button{
+    text-align: center;
+    justify-content: center;
+    grid-row: 2/6;
+    grid-column: 2/6;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+#logout-button:hover{
+    background-color: black;
+    color: rgb(93, 170, 106);
+}
+
+#toggler{
+    margin-top: 10vh;
+}
+
+
+#logout-button{
+    margin-top: 20vh;
+}
+
+#link-button{
+    text-decoration: none;
+}
+
+.card{
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: black;
+}
+
+.card-body{
+    
+}
+
+@media only screen and (max-width: 768px){
+    .welcome h1{
+        color: black;
+        padding-top: 3vh;
+        font-size: 1.7rem;
+        font-weight: bold;
+    }
+    
+}

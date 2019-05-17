@@ -1,0 +1,64 @@
+.navbar-color{
+  background-color: white;
+}
+
+.navbar-text { 
+    color: rgb(93, 170, 106);
+    text-transform: uppercase;
+    font-size: 2rem;
+    text-shadow: 1px 1px 1px black;
+    font-weight: bold;
+    padding-left: 21px;
+  }
+
+.navbar-text:hover{
+  color:rgb(93, 170, 106);
+}
+
+#nav-drop{
+  color: rgb(93, 170, 106);
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-drop:hover{
+  color: green
+}
+
+#nav-drop span{
+  color: rgb(93, 170, 106);
+}
+
+#nav-drop span:hover{
+  color: black;
+}
+
+#nav-link{
+  color: black;
+  padding-left: 21px;
+  padding-right: 31px;
+}
+
+#nav-link:hover{
+  color: rgb(93, 170, 106) ;
+}
+
+
+
+@media only screen and (max-width: 768px){
+  .navbar-toggler{
+    margin: 0px;
+    margin-right: 21px;
+  } 
+
+  #nav-link{
+    padding: 0;
+    font-size: 1.2rem;
+    margin-left: 21px;
+  }
+
+  .navbar-text{
+    font-size: 2rem;
+  }
+}
